@@ -1,6 +1,9 @@
 import cv2
 import numpy as np
 from PIL import Image
+import scipy
+from scipy import fftpack
+from scipy.fftpack import fft, dct
 
 #opencv PIL buscar QDCT
 
@@ -30,6 +33,7 @@ while yEnd < imageHeight:
             xBegin += 8
             xEnd += 8
             print bloque
+            qdct_transform = scipy.fftpack.dct(bloque, type=2, n=None, axis=-1, norm=None, overwrite_x=False)
         xBegin = 0
         xEnd = 8
         yEnd += 8
