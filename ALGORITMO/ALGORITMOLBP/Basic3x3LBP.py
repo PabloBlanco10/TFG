@@ -40,11 +40,11 @@ im.fromarray(imYCbCr[:,:,Cb], "L").show()
 im.fromarray(imYCbCr[:,:,Cr], "L").show()
 
 
-img = cv2.imread('/Users/Pablo/Desktop/13.jpeg', 0)
-img = (imYCbCr[:,:,Cr], "L")[0]
+img = cv2.imread('/Users/Pablo/Desktop/15.jpeg', 0)
+#img = (imYCbCr[:,:,Cr], "L")[0]
 
-transformed_img = cv2.imread('/Users/Pablo/Desktop/13.jpeg', 0)
-transformed_img = (imYCbCr[:,:,Cr], "L")[0]
+transformed_img = cv2.imread('/Users/Pablo/Desktop/15.jpeg', 0)
+#transformed_img = (imYCbCr[:,:,Cr], "L")[0]
 
 for x in range(0, len(img)):
     for y in range(0, len(img[0])):
