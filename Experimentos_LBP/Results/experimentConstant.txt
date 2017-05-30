@@ -1,0 +1,5 @@
+Fecha de Experimento: Mon May 29 20:56:42 2017
+Experimento: Experimentos_LBP
+Carpeta de Entrenamiento: /Users/Pablo/Repository GitHub/TFG/TFG/Experimentos_LBP/Train
+Carpeta de Prueba: /Users/Pablo/Repository GitHub/TFG/TFG/Experimentos_LBP/Test
+Caracteristicas analizadas: Wavelets
